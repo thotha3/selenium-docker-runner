@@ -5,7 +5,7 @@ pipeline{
 				sh "docker-compose up"
 			}
 		}
-		tages("Bring Grid Down"){
+		stages("Bring Grid Down"){
 			steps{
 				sh "docker-compose down"
 			}
